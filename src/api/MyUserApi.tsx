@@ -73,7 +73,6 @@ export const useUpdateMyUser = () => {
     mutateAsync: updateUser,
     isPending,
     isSuccess,
-    isError,
     error,
     reset,
   } = useMutation({ mutationFn: updateMyUserRequest });
